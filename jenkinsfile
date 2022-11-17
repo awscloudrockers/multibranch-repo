@@ -27,7 +27,6 @@ pipeline {
                 sh "cal"
             }
         }
-        
         stage ("5. create file") {
             steps {
                 sh "echo test1.txt"
